@@ -1,0 +1,30 @@
+{
+  "name": "pagedownconverter",
+  "version": "0.0.1",
+  "description": "Markdown converter that tries to have feature compatibility with StackEdit.",
+  "dependencies": {
+    "pagedown": "~1.1.0",
+    "pagedown-extra": "git://github.com/jmcmanus/pagedown-extra"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickardraysearch/pagedownconverter"
+  },
+  "keywords": [
+    "Markdown",
+    "node"
+  ],
+  "author": "Rickard Holmberg",
+  "preferGlobal": true,
+  "bin": {
+    "pagedown": "index.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickardraysearch/pagedownconverter/issues"
+  }
+}
